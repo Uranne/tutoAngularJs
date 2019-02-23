@@ -16,6 +16,7 @@ export class AppareilComponent implements OnInit {
   }
 
   getStatus(){
+    alert("plop");
     return this.appareilStatus;
   }
 
